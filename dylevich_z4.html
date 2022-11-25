@@ -6,7 +6,7 @@
     <table style="border: black solid 2px">
       <tr>
         <td>
-          <p>1 sposób podłączenia pliku CSS<p>
+          <p>1 sposób podłączenia pliku CSS - zewnętrzny arkusz stylów<p>
         </td>
         <td>
           <textarea disabled>
@@ -18,13 +18,52 @@
       </tr>
       <tr>
         <td>
-          <p>2 sposób podłączenia pliku CSS<p>
+          <p>2 sposób podłączenia pliku CSS - import arkusza stylów<p>
         </td>
         <td>
           <textarea disabled>
             <head>
               <style>
                 @import url("dylevich_z5_1.css");
+              </style>
+            </head>
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>3 sposób podłączenia pliku CSS - styl lokalny<p>
+        </td>
+        <td>
+          <textarea disabled>
+            <selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>4 sposób podłączenia pliku CSS - alternatywny arkusz stylów<p>
+        </td>
+        <td>
+          <textarea disabled>
+            <head>
+              <link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+              <link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+              <link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+            </head>
+          </textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>5 sposób podłączenia pliku CSS - <p>
+        </td>
+        <td>
+          <textarea disabled>
+            <head>
+              <style type="text/css">
+                selektor1 { cecha: wartość; cecha2: wartość2... }
+                selektor2 { cecha: wartość; cecha2: wartość2... }
               </style>
             </head>
           </textarea>
