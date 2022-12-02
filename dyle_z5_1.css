@@ -2,3 +2,7 @@ p {
 color: #808000;
 font-size: 67px;
 }
+
+textarea{
+  resize:none;
+}
