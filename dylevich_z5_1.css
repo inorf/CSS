@@ -2,7 +2,9 @@ p {
 color: #808000;
 font-size: 67px;
 }
-/* <html>
+
+code html:
+<html>
 <head>
 <title>styl zewnetrzne</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -14,4 +16,4 @@ font-size: 67px;
 <body bgcolor="silver">
 <center><p> Dylevich -> zewnętrzne</p></center>
 </body>
-</html> */
+</html>
