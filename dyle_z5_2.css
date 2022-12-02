@@ -2,3 +2,16 @@ p {
 color: navy;
 font-size: 47px;
 }
+
+code html:
+<html>
+<head>
+<title>styl zewnetrzny</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- Dylevich 25.11.2022 -->
+<LINK href="dyle_z5_2.css" rel="stylesheet" type="text/CSS">
+</head>
+<body bgcolor="silver">
+  <center><p> Dylevich -> zewnętrzne</p></center>
+</body>
+</html>
