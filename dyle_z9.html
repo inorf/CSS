@@ -1,1 +1,84 @@
+<html>
+<head>
+<meta HTTP-EQUIV="content-type" content="text/html">
+</head>
+<body>
+    <ol>
+        <li>
+            <h1>Składnia teoretyczna -> otoczony ramką (może być tabela jedno komórkowa,
+                konieczne wcięcia).</h1>
+            <textarea readonly disabled>
+    <head>
+         <link rel="Stylesheet" type="text/css" href="style.css">
+    </head></textarea>
+        </li>
+        <li>
+            <h1>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+                ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1>
+           <p>Wstawienie -> wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy
+            znacznikami &lt;head&gt; a &lt;/head&gt;), przedstawioną powyżej linijkę:
+            Za to jest odpowiedzialny znacznik &lt;link&gt;. Można dołączyć dowolną liczbę 
+            zewnętrznych arkuszy stylów
+        </p>
+        </li>
+        <li>
+            <h1>Jak jest najprostsza forma wstawiania stylu zewnętrznego -> otoczony ramką (może
+                być tabela jedno komórkowa?
+                </h1>
+            <textarea readonly disabled style="height: 5%;"><link rel="Stylesheet" type="text/css" href="style.css" /></textarea>
+        </li>
+        <li>
+            <h1>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+                musi być zachowana przy większej ilości dołączanych styli?</h1>
 
+            <p>można dołączyć dowolną liczbę zewnętrznych arkuszy stylów
+                    - każdy jako osobny element &lt;link rel="Stylesheet" /&gt;. </p>
+        </li>
+        <li>
+            <h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+                są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1>
+            <p>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</p>
+        </li>
+        <li>
+            <h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+
+            <p>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+                edytowania wystarczy zwykły edytor tekst. </p>
+        </li>
+        <li>
+            <h1>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1>
+
+            <p>Można się posłużyć specjalnym edytorem CSS</p>
+        </li>
+        <li>
+            <h1>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1>
+
+            <p>Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć
+                rozszerzenie *.css</p>
+        </li>
+        <li>
+            <h1>Jakie są zalety zewnętrznego arkusza styli( dwie - z użyciem wyliczenia?</h1>
+            <ol style="font-family: Arial;">
+                <li>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy. </li>
+                <li>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich
+                    stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez
+                    konieczności zmiany każdej strony osobno. </li>
+            </ol>
+        </li>
+        <li>
+            <h1>Uwagi na temat pisania w CSS. </h1>
+            <ul type="disc">
+                <li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.
+                    (sekcja head )</li>
+                <li>można dołączyć dowolną liczbę zewnętrznych arkuszy stylów
+                    - każdy jako osobny element &lt;link rel="Stylesheet" /&gt;. </li>
+                <li>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+                    edytowania wystarczy zwykły edytor tekst.</li>
+                <li>Można się posłużyć specjalnym edytorem CSS</li>
+                <li>Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć
+                    rozszerzenie *.css</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
