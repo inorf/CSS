@@ -1,1 +1,8 @@
-
+    p, textarea, ul {
+        font-family: Arial;
+    }
+    textarea{
+        resize: none;
+        width: 90%;
+        height: 15%;
+    }
