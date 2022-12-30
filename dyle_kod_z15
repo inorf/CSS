@@ -1,0 +1,35 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<style>
+body {
+    background-color: gray;
+}
+textarea {
+    width: 90%;
+    height: 40%;
+    resize: none;
+ }
+
+ </style>
+</style>
+</head>
+<body>
+    <h2>HTML-kod</h2>
+    <textarea disabled readonly><html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<link href="mysi_z15.css" rel="stylesheet">
+</head>
+<body>
+    <p>:) Zadowolenie, uśmiech</p>
+    :)) Radość, szeroki uśmiech, chichot
+    <p>;) Mruganie, puszczanie oczka</p>
+    :C Bardzo duży smutek, bardzo duże przygnębienie
+    <p>:| Brak emocji</p>
+    >:) Zadowolenie, szatański uśmiech
+</body>
+</html>
+    </textarea>
+</body>
+</html>
