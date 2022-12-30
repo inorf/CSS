@@ -1,0 +1,9 @@
+p, textarea {
+        font-family: Arial;
+        font-weight: bold;
+}
+textarea{
+        resize: none;
+        width: 90%;
+        height: 15%;
+}
