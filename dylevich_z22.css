@@ -1,0 +1,14 @@
+p{
+    font-size: 22pt;
+    color: red;
+}
+p[title*="gruby_dylevich"]{
+    text-decoration: solid;
+    color: green;   
+    font-size: 17pt;
+}
+#dlawszystkich_dylevich{
+    color: yellow;
+    font-size: 10pt;
+    font-family: arial;
+}
