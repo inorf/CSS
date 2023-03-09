@@ -37,6 +37,10 @@ p#z3_dylevich{
 div#a{
     background-color: cyan;
 }
+div#s{
+    background-color: cyan;
+    text-align:right;
+}
 p#z4_dylevich{
     font-weight: 300;
     font-size: 20px;
@@ -71,5 +75,6 @@ p#z6_dylevich{
     letter-spacing: 13pt;
     line-height: 0.3cm;
     margin-left: 5px;
+    
     text-transform:capitalize;
 }
