@@ -1,0 +1,75 @@
+p#q{
+    color: rgb(113, 113, 113);
+    font-family: serif;
+    font-weight: 400;
+    text-decoration: overline;
+    font-size: xx-small;
+    text-indent: 3cm;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    line-height: 1.2cm;
+    margin-left: 5px;
+}
+p#w{
+    font-style: italic;
+    font-weight: 600;
+    font-size: medium;
+    text-transform:uppercase;
+    text-indent: 3cm;
+    color: rgb(113, 113, 113);
+    font-family: serif;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    line-height: 1.2cm;
+    margin-left: 5px;
+}
+p#e{
+    font-weight: 800;
+    font-size: xx-large;
+    text-indent: 3cm;
+    color: rgb(113, 113, 113);
+    font-family: serif;
+    word-spacing: 9px;
+    letter-spacing: 3ex;
+    line-height: 1.2cm;
+    margin-left: 5px;
+}
+div#a{
+    background-color: cyan;
+}
+p#r{
+    font-weight: 300;
+    font-size: 20px;
+    text-indent: 15mm;
+    color: rgb(233, 0, 246);
+    font-family: sans-serif;
+    word-spacing: 18mm;
+    letter-spacing: 13pt;
+    line-height: 0.3cm;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+p#t{
+    font-weight: 600;
+    font-size: 0.8em;
+    text-indent: 15mm;
+    color: rgb(233, 0, 246);
+    font-family: sans-serif;
+    word-spacing: 18mm;
+    letter-spacing: 13pt;
+    line-height: 0.3cm;
+    margin-left: 5px;
+    font-style: oblique;
+}
+p#y{
+    font-weight: 800;
+    font-size: 0.2in;
+    text-indent: 15mm;
+    color: rgb(233, 0, 246);
+    font-family: sans-serif;
+    word-spacing: 18mm;
+    letter-spacing: 13pt;
+    line-height: 0.3cm;
+    margin-left: 5px;
+    text-transform:capitalize;
+}
