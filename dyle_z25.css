@@ -16,7 +16,7 @@ p#w{
     font-size: medium;
     text-transform:uppercase;
     text-indent: 3cm;
-    color: rgb(113, 113, 113);
+    color: rgb(130, 130, 130);
     font-family: serif;
     word-spacing: 9px;
     letter-spacing: 3ex;
@@ -27,7 +27,7 @@ p#e{
     font-weight: 800;
     font-size: xx-large;
     text-indent: 3cm;
-    color: rgb(113, 113, 113);
+    color: rgb(100, 100, 100);
     font-family: serif;
     word-spacing: 9px;
     letter-spacing: 3ex;
@@ -53,7 +53,7 @@ p#t{
     font-weight: 600;
     font-size: 0.8em;
     text-indent: 15mm;
-    color: rgb(233, 0, 246);
+    color: rgb(239, 0, 226);
     font-family: sans-serif;
     word-spacing: 18mm;
     letter-spacing: 13pt;
@@ -65,7 +65,7 @@ p#y{
     font-weight: 800;
     font-size: 0.2in;
     text-indent: 15mm;
-    color: rgb(233, 0, 246);
+    color: rgb(223, 0, 255);
     font-family: sans-serif;
     word-spacing: 18mm;
     letter-spacing: 13pt;
