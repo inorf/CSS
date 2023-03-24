@@ -1,0 +1,40 @@
+p{
+	font-family:arial;
+	color:red;
+}
+body{
+	background-color:#470877;
+	height:100%;
+}
+div{
+	width:90%;
+	height:100%;
+	margin:4%;
+	background-color:black;
+	padding:5px;
+	border-style:solid;
+	border-width:7px;
+	border-color:purple;
+	border-radius:90px;
+}
+h1{
+	color:#a5a5a5
+}
+textarea#q{
+	width:440px;
+	height:22px;
+	background-color:black;
+	color:red;
+	font-family:arial;
+	border-color:black;
+	resize:none;
+}
+textarea#w{
+	height:22px; 
+	width:50px;
+	background-color:black;
+	color:red;
+	font-family:arial;
+	border-color:black;
+	resize:none;
+}

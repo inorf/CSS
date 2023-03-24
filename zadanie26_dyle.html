@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/CSS" href="z26_dyle.css">
+	</head>
+	<body>
+		<div>
+			<ul><h1><b>1)Cel stosowania szablonów HTML 4.01 Transitional</b></h1>
+				<li><p>Zanim walidator sprawdzi dokument, musi wiedzieć w jakim języku został napisany: Strict, Transitiomal lub Frame. To są typy HTML (języki znaczników).</p>
+			</ul><br>
+			<ul><h1><b>2)Opis 'STRICT', 'TRANSITIONAL', 'FRAME SET':</b></h1>
+				<li><p><b>'STRICT':</b> składa się z bardzo rygorystycznych reguł co można a czego nie można robić w danym dokumencie HTML,</p>
+				<li><p><b>'TRANSITIONAL':</b> jest bardziej łagodnym zbiorem zasad i potrafi wybaczyć pewne rzeczy,</p>
+				<li><p><b>'FRAME SET':</b> jest prawie na wymarciu w obecnych czasach</p>
+			</ul>
+			<ul><h1><b>3)Przykłady szablonów HTML 4.01 Transitional</b></h1>
+				<li><p><b>w tabeli</b> - <textarea id="q"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"></textarea>
+					<textarea id="q"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"></textarea>
+					<textarea id="q"><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"></textarea></p>
+				<li><p><b>wytłumaczenie</b> - Aby powiedzieć przeglądarce jakiego języka znaczników używamy, precyzujemy deklaracje typu dokumentu (DocType) na samym początku kodu HTML, czyli przed znacznikiem <textarea id="w"><html></textarea>. Podanie adresu wersji DTD, pozwala przeglądarce pobrać wersję DTD oraz wszystkie potrzebne zestawy znaków.</p>
+				<li><p><b>dokładny opis:</b> 'STRICT' zawiera wszystkie elementy i atrybuty, które nie są zdeprecjonowane. 'TRANSITIONAL' zawiera wszystko co w Strict DTD plus elementy i atrybuty zdeprecjonowane oraz element IFRAME i atrybut target="...". 'FRAME SET' zawiera wszystko co w Transitional DTD plus elementy odnoszące się do ramek: FRAME, FRAMESET oraz NOFRAMES.</p>
+			</ul>
+			<ul><h1>Wartosci domyslne</h1>
+				<li><p>Jeśli nie podamy żadnej z powyższych wersji DTD, jako domyślna najprawdopodobniej zostanie przyjęta Transitional DTD (w MSIE), ale sposób ten absolutnie nie jest zalecany! W każdym dokumencie HTML, na samym początku, powinna się pojawić deklaracja DTD. Najbezpieczniejszym rozwiązaniem, kiedy kluczowe znaczenie ma kompatybilność wstecz, wydaje się użycie Transitional DTD, chyba że chcemy się ściśle trzymać wytycznych specyfikacji co do znaczników i atrybutów zdeprecjonowanych, wtedy należy zastosować Strict DTD i nie używać tych znaczników ani atrybutów.</p>
+			</ul>
+		</div>
+	</body>
+</html>
