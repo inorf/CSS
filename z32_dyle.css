@@ -1,0 +1,18 @@
+h1{
+    color:blue;
+}
+p{
+    font-family: arial;
+}
+td{
+    border-width: 3px;
+    border-color: black;
+    padding-left: 2px;
+    border-style: solid;
+}
+table{
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+}
