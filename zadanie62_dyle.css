@@ -1,0 +1,15 @@
+body {
+    background-color: silver;
+    }
+    p{
+    font-size: 19mm;
+    color: red;
+    }   
+    p:lang(pl){
+    font-size: 26mm;
+    color:silver;
+    }
+    p:lang(en){
+    font-size: 33mm;
+    color:blue;
+    }
