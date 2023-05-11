@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			background-color: silver;
+		}
+		div {
+			height: auto;
+		}
+		div#pierwszy_dylevich {
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #FFC0CB;
+			border:#0D4F8B 5px solid;
+			border-radius: 14mm;
+			width: 736pt;
+		}
+		div#drugi_dylevich {
+			background-color: lightblue;
+			border: black 3px solid;
+			border-radius: 15mm;
+			width: 936pt;
+		}
+		div#trzeci_dylevich {
+            margin-left: auto;
+			margin-right: auto;
+			background-color: limegreen;
+			border:  #7B2B60 7px solid;
+			border-radius: 15mm;
+			width: 1136pt;
+		}
+		p:first-child {
+			font-size:7mm;
+			font-style:italic;
+		}
+		p {
+            text-align: center;
+			font-size:11pt;
+		}
+	</style>
+</head>
+<body>
+	<div id="pierwszy_bily">
+		<p>Pierwszy akapit/pierwszy DIV-->Dylevich<br> nazwa ID akapitu id="pierwszy_Dylevich"</p>
+		<p>Drugi akapit/pierwszy DIV<br>
+            pierwszy akapit -->p:first-child {font-size:7mm;font-styl:italic;} bo numer nieparzysty w dzienniku<br>
+            pozostałe akapity --> p{font-size:11pt;} bo numer nieparzysty<br>
+            szerokość bloku = 700+9*4-736pt<br>
+            pierwszy DIV--> kolor jasno-niebieski</p>
+		<p>trzeci akapit/pierwszy DIV<br>
+            pierwszy DIV--> obramowanie granatowe DIV (Ty wpisz swój kolor z tabeli)<br>
+            pierwszy DIV--> obramowanie grubość 5px (Ty wpisz swoją z tabeli), ciągłe (solid)<br>
+            pierwszy DIV--> r1=7mm+7(Dzmitry)=14mm (Ty wpisz swój w zależności od imienia)</p>
+	</div>
+	<div id="drugi_bily">
+		<p>Pierwszy akapit/drugi DIV-->Dzmitry<br> nazwa ID akapitu id="drugi_dylevich"</p>
+		<p>Drugi akapit/drugi DIV<br>
+            drugi DIV--> kolor różowy</p>
+			szerokość bloku = 900+9*4-936pt<br>
+		<p>trzeci akapit/drugi DIV<br>
+            drugi DIV--> obramowanie czarne DIV (Ty wpisz swój kolor z tabeli)<br>
+            drugi DIV--> obramowanie grubość 3px (Ty wpisz swoją z tabeli), ciągłe (solid)<br>
+            drugi DIV--> r1=7mm+8(Dylevich)=15mm (Ty wpisz swój w zależności od nazwiska)</p>
+	</div>
+	<div id="trzeci_bily">
+		<<p>Pierwszy akapit/trzeci DIV-->1P<br> nazwa ID akapitu id="trzeci_dylevich"</p>
+		<p>Drugi akapit/trzeci DIV<br>
+			szerokość bloku = 1100+9*4-1136pt<br>
+            trzeci DIV--> kolor jasno zielony</p>
+		<p>trzeci akapit/trzeci DIV<br>
+            trzeci DIV--> obramowanie fioletowy DIV (Ty wpisz swój kolor z tabeli)<br>
+            trzeci DIV--> obramowanie grubość 7px (Ty wpisz swoją z tabeli), ciągłe (solid)<br>
+            trzeci DIV--> r1=7mm+8=15mm (Ty wpisz swój w zależności od miesiąca urodzenia)</p>
+	</div>
+</body>
+</html>
