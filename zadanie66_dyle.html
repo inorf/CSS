@@ -1,0 +1,67 @@
+<html>
+    <head>
+<style>
+    div{
+        border: 1px solid black;
+    }
+    body{
+        background-color: ghostwhite;
+    }
+</style>
+    </head>
+    <body>
+<h2>:first-line obejmuje formatowaniem całą
+pierwszą linię</h2>
+<div><pre>
+ p
+  {
+  color:navy;
+  font-size:12pt;
+  }
+
+ p:first-line
+  {
+  color:red;
+  font-size:20pt;
+  font-weight:bold;
+  }
+</pre></div><br>
+<b style="font-size: x-large;">pseudoelementy :after oraz :before</b><br>
+Poza :first-letter i :first-line w specyfikacji umieszczono jeszcze dwa inne
+<b>pseudoelementy - :after oraz :before.</b> Obaj elementy służą do umieszczania tekstu przed i za
+formatowanym elementem strony. Przykłady:
+<br><br><div><pre>
+ p:before
+  {
+  content:"TO SĄ ĆWICZENIA";
+  font-size:15pt;
+  font-style:italic;
+  font-weight:bold;
+  }
+ p:after
+  {
+  content:"AUTOR Król Lew";
+  font-size:15pt;
+  font-style:italic;
+  font-weight:bold;
+  }
+</pre></div><br>
+<b style="font-size:x-large">pseudoelement :first-letter</b>
+pozwala na formatowanie pierwszej litery w bloku
+tekstu.
+Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+nadanie jej koloru czerwonego:<br><br>
+<div><pre>
+ p
+  {
+  color:navy;
+  font-size:30pt;
+  }
+ p:first-letter
+  {
+  color:red;
+  font-size:100pt;
+  }
+</pre></div>
+    </body>
+</html>

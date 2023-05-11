@@ -1,0 +1,44 @@
+p#ddd
+{
+	font-size:23pt;
+	color:blue;
+}
+p#ddd:first-letter
+{
+color:red;
+font-size:118pt;
+}
+p#ggg
+{
+	font-size:21pt;
+	color:blue;
+}
+p#ggg:first-letter
+{
+color:red;
+font-size:118pt;
+}
+h1:first-letter
+{
+color:silver;
+font-size:130pt;
+}
+h1
+{
+color:purple;
+font-size:28pt;
+text-decoration: solid;
+}
+p#fff:first-line
+{
+	color:red;
+}
+p#fff:first-letter
+{
+font-size:118pt;
+}
+p#fff
+{
+	font-size:23pt;
+	color:blue;
+}

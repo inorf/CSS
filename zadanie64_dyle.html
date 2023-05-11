@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+table {
+  border-collapse: collapse;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+td:hover{
+    background-color: #f2f2f2;
+}
+div{
+    border: solid;
+    width: 200px;
+}
+
+    </style>
+</head>
+<body>
+1)
+    <table>
+        <tr>
+          <td colspan="2">Zaokrąglenie narożników obszarów bloków np. DIV</td>
+        </tr>
+        <tr>
+          <td>Zaokrąglenie górnego-lewego narożnika:</td>
+          <td>selektor { border-top-left-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+          <td>Zaokrąglenie górnego-prawego narożnika:</td>
+          <td>selektor { border-top-right-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+          <td>Zaokrąglenie dolnego-prawego narożnika:</td>
+          <td>selektor { border-bottom-right-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+          <td>Zaokrąglenie dolnego-lewego narożnika:</td>
+          <td>selektor { border-bottom-left-radius: zaokrąglenie }</td>
+        </tr>
+      </table>
+    2)
+    <p>Zastosowanie:</p>
+<p>We wszystkich przypadkach selektorem może być dowolny znacznik, np.</p>
+<ul>
+  <li>p – akapit</li>
+  <li>h1 – nagłówek</li>
+  <li>div – blok</li>
+</ul>
+<p>Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj podanie:</p>
+<ul>
+  <li>jednej wartości - zaokrąglenie symetryczne</li>
+  <li>dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a druga - pionowy</li>
+</ul>
+<p>Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.</p>
+3)
+Przykład:
+<div>
+border-top-right-radius: 10px
+</div>
+4)
+W definicja CSS bloku DIV należy wpisać:
+<div>
+margin-left: auto;<BR>
+margin-right: auto;
+</div>
+</body>
+</html>
