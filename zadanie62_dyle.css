@@ -2,14 +2,14 @@ body {
     background-color: silver;
     }
     p{
-    font-size: 19mm;
+    font-size: 20mm;
     color: red;
     }   
     p:lang(pl){
-    font-size: 26mm;
+    font-size: 27mm;
     color:silver;
     }
     p:lang(en){
-    font-size: 33mm;
+    font-size: 34mm;
     color:blue;
     }
