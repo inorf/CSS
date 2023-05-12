@@ -1,0 +1,41 @@
+/* Definicja odsyłacza podstawowego*/
+A
+ {
+ font-size:24pt;
+ text-decoration:none;
+ }
+A:link
+ {
+ color:navy;
+ }
+A:visited
+ {
+ color:green;
+ }
+A:hover
+ {
+ color:red;
+ text-decoration:underline;
+ }
+/* Definicja odsyłacza mniejszego*/
+A.maly{
+    font-size: 12pt;
+}
+A.maly:link
+ {
+ color:silver;;
+ }
+A.maly:visited
+ {
+ color:yellow;
+ }
+A.maly:hover
+ {
+ color:black;
+ text-decoration:none;
+ }
+A:active
+ {
+ color:silver;
+ }
+
